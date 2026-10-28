@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos</title>
+    <link rel="icon" type="image/svg+xml" href="https://cdn.worldvectorlogo.com/logos/css-3.svg">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        table {
+            border-collapse: separate;
+            border-spacing: 0 5px;
+            margin: 20px 0;
+        }
+
+        td {
+            padding: 0;
+            vertical-align: middle;
+        }
+
+        .etiqueta {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            padding-right: 15px;
+        }
+
+        .input-campo {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: blue;
+            padding: 5px;
+            border: 1px solid #767676;
+            border-radius: 3px;
+            box-sizing: border-box;
+            width: 250px;
+        }
+
+        .btn {
+            color: white;
+            font-weight: bold;
+            padding: 5px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+
+        .btn-enviar {
+            background-color: green;
+        }
+
+        .btn-enviar:hover {
+            background-color: #28a745;
+        }
+
+        .btn-borrar {
+            background-color: red;
+        }
+
+        .btn-borrar:hover {
+            background-color: #ff4d4d;
+        }
+
+        .contenedor-botones {
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Practicas css</h1>
+    </div>
+
+    <div id="menu">
+        <a href="index.html" class="item_menu"> Inicio</a>
+        <a href="Atributo.html" class="item_menu"> Atributo</a>
+        <a href="Etiqueta.html" class="item_menu"> Etiqueta</a>
+        <a href="Textos.html" class="item_menu"> Textos</a>
+        <a href="margenes.html" class="item_menu"> Margenes</a>
+        <a href="Imagenes.html" class="item_menu"> Imagenes</a>
+        <a href="tabla.html" class="item_menu"> Tabla</a>
+        <a href="flex.html" class="item_menu"> Flex</a>
+        <a href="Degradados.html" class="item_menu"> Degradados</a>
+        <a href="Animaciones.html" class="item_menu"> Animaciones</a>
+        <a href="Fondos.html" class="item_menu"> Fondos</a>
+    </div>
+
+    <table>
+        <tr>
+            <td class="etiqueta"><label for="nombre">Nombre</label></td>
+            <td><input type="text" id="nombre" class="input-campo"></td>
+        </tr>
+        <tr>
+            <td class="etiqueta"><label for="edad">Edad</label></td>
+            <td><input type="text" id="edad" class="input-campo"></td>
+        </tr>
+        <tr>
+            <td class="etiqueta"><label for="correo">Correo</label></td>
+            <td><input type="email" id="correo" class="input-campo"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="contenedor-botones">
+                <button type="submit" class="btn btn-enviar">Enviar</button>
+                <button type="reset" class="btn btn-borrar">Borrar</button>
+            </td>
+        </tr>
+    </table>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="footer">
+        Alexandra Zurita <br>
+        UTLVTE <br>
+        2026
+    </div>
+</body>
+</html>

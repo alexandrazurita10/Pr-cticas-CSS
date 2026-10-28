@@ -1,0 +1,309 @@
+#deg4 {
+    font-family: 'InstagramLocal', 'Grand Hotel', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    height: 400px;
+    background-image: linear-gradient(to right, #523FCF, #AF289D, #E8223C, #F6BA50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+#parrafo1{
+    color: brown;
+    font-weight: bold;
+    text-align: right;
+}
+
+#parrafo2{
+    color: green; 
+    font-weight: light; 
+    text-align:center; 
+}
+
+#parrafo3{
+    color: blue; 
+    text-transform: uppercase;
+    text-align: justify; 
+}
+
+.ClaseParrafos{
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecera{
+    background-color: #EEEEEE;
+    padding: 10px;
+    color: #539cdc;
+}
+
+#menu{
+    background-color: #337AB7;
+    padding: 10px; 
+    margin-bottom: 5px; /* Corregido comentario */
+}
+
+a.item_menu{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.item_menu:hover{
+    background-color: #539cdc;
+}
+
+#div1{
+    background-color: burlywood;
+    margin: 20px;
+}
+
+#div2{
+    background-color: burlywood;
+    margin-left: 20px;
+}
+
+#div3{
+    background-color: burlywood;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;    
+}
+
+#div4{
+    background-color: burlywood;
+    margin: 40px;
+    padding: 20px;
+}
+
+#div5{
+    background-color: burlywood;
+    margin: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#footer{
+    background-color: #337AB7;
+    padding: 10px;
+    color:white;
+    box-shadow: 10px 5px 5px gray;
+    font-size: small;
+}
+
+body{
+    margin: 0px;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-content a:hover {
+  background-color: #337AB7;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #2980b9;
+}
+
+#img1{
+    border: 5px solid red;
+    width: 30%;
+}
+
+#img2{
+    width: 30%;
+    border-radius: 5%;
+    border: 2px solid gray;
+}
+
+#img3{
+    opacity: 1;
+    width: 32%;
+}
+
+.contenedor {
+    display: flex;
+    gap: 10px;
+}
+
+.div_izquierda {
+    background-color: greenyellow;
+    flex: 1;
+    height: 400px;
+}
+
+.div_derecha {
+    background-color: aqua;
+    flex: 1;
+    height: 400px;
+}
+
+#deg1 {
+    height: 200px;
+    background: linear-gradient(blue, skyblue);
+}
+
+#deg2 {
+    height: 200px;
+    background: linear-gradient(blue, white, green);
+}
+
+#deg3 {
+    height: 200px;
+    background: linear-gradient(to right, green, yellow, red);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+@font-face {
+    font-family: 'Instagram';
+    src: url('Instagram.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+#deg4 {
+    font-family: 'Instagram', 'Grand Hotel', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    height: 400px;
+    background-image: linear-gradient(to right, #523FCF, #AF289D, #E8223C, #F6BA50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo_insta {
+    width: 120px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+.texto_insta {
+    font-family: 'Instagram', 'Grand Hotel', cursive;
+    font-size: 80px;
+}
+#fondo_color{
+    background-color: rgb(172, 241, 246);
+    height: 1500px;
+    width: 100%;
+    z-index: -1;  /*Coloca el fondo detras del contenido*/
+    position: absolute; /*Posicion absoluta para que ocupe toda la pantalla*/
+}
+#fondo_imagen{
+    background-image: url("FondoImagen.jpg");
+    height: 1500px;
+    width: 100%;
+    position: absolute;
+    background-size: cover; /*cubre todo el fondo*/
+    background-repeat: no-repeat; /*No repetir la imagen*/
+    z-index: -1; /*Coloca el fondo detras del contenido*/
+    opacity: 0.5;
+}
+#fondo_fijo{
+    background-image: url("imagesFijo.jpg");
+    height: 1500px;
+    width: 100%;
+    position: absolute;
+    background-size: cover; /*cubre todo el fondo*/
+    background-repeat: no-repeat; /*No repetir la imagen*/
+    z-index: -1; /*Coloca el fondo detras del contenido*/
+    opacity: 0.3;
+
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#transicion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 1s;
+}
+
+#transicion:hover{
+    width: 200px;
+}
+
+#animacion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ejemplo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ejemplo1{
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+
+#animacion2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: ejemplo2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes ejemplo2{
+    0%{left: 0px; top: 0px;}
+    25%{left: 200px; top: 0px;}
+    50%{left: 200px; top: 0px;}
+    75%{left: 200px; top: 200px;}
+    100%{left: 0px; top: 200px;}
+}
